@@ -8,7 +8,7 @@ import { ApiProvider } from './contexts/ApiProvider';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ApiProvider value="https://pokeapi.com/api/v2">
+    <ApiProvider>
       <App />
     </ApiProvider>
   </React.StrictMode>

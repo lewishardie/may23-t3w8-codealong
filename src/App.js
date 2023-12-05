@@ -1,9 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import { ApiContext } from './contexts/ApiProvider';
+import { useContext } from 'react';
 
 function App() {
+  //-- using hook to get data
+  let apiUrl = useContext(ApiContext);
+
   return (
     <div className="App">
+
+      <h1>{apiUrl}</h1>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

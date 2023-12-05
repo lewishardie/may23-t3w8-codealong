@@ -9,7 +9,7 @@ export const ApiContext = createContext("https://pokeapi.co/api/v2")
 //
 export function ApiProvider(props){
     return (
-        <ApiContext.Provider>
+        <ApiContext.Provider value="https://pokeapi.com/api/v2">
             {props.children}
         </ApiContext.Provider>
     )
