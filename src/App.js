@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import { ApiContext } from './contexts/ApiProvider';
-import { useContext } from 'react';
+// import { ApiContext } from './contexts/ApiProvider';
+// import { useContext } from 'react';
 import { ApiSearchForm } from './components/ApiSearchForm';
 
 function App() {
   //-- using hook to get data
   
-  let apiUrl = useContext(ApiContext);
+  // let apiUrl = useContext(ApiContext);
 
   return (
     <div className="App">
