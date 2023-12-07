@@ -6,6 +6,7 @@ import { ApiSearchForm } from './components/ApiSearchForm';
 
 function App() {
   //-- using hook to get data
+  
   let apiUrl = useContext(ApiContext);
 
   return (
@@ -13,6 +14,7 @@ function App() {
 
       {/* <h1>{apiUrl}</h1> */}
       <ApiSearchForm />
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
