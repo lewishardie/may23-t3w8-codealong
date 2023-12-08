@@ -1,5 +1,8 @@
 # React App Code-Along
 
+When cloneing a react github
+    => npm i
+
 https://pokeapi.co/api/v2/pokemon/ditto
 
 Universal Shared API URL base:
@@ -21,17 +24,25 @@ https://pokeapi.co/api/v2/pokemon/
     - [ ] API that uses other HTTP verbs (eg. fetch with POST/PUT/DELETE)
 
 ## Thursday
-
-Goals:
-    - React app code-along
     
 - Definite goals:
     - [x] Manage an API URL via gloabl state and via ENV variables
-        - [ ] Improve our package.json command or setup a .env file to use ENV variables
-        - [ ] Improve our Netlify to use ENV variables
-    - [ ] Render data from gloabl state
-        - [ ] Should update when global state updates
+        - [x] Improve our package.json command or setup a .env file to use ENV variables
+        - [x] Improve our Netlify to use ENV variables
+    - [x] Render data from gloabl state
+        - [x] Should update when global state updates
 
 - Nice-to haves:
-    - [ ] CSS framework (eg. React Bootstrap)
+    - [x] CSS framework (eg. React Bootstrap)
     - [ ] API that uses other HTTP verbs (eg. fetch with POST/PUT/DELETE)
+
+## Saturday
+
+- Definite goals:
+    - [ ]  Pokemon team CRUD
+        - [ ] Add and remove Pokemon from team
+        - [x] Save them to locastorage
+
+
+local storage styles
+    - 
