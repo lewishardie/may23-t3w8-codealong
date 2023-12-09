@@ -18,6 +18,7 @@ export default function PokemonTeamDisplay(){
             {team.map((element, index) => {
                 return <PokemonInfoCard 
                 key={element.id} 
+                pokemonId={element.id}
                 name={element.pokemon.name}
                 imageUrl={element.pokemon.sprites.other.home.front_default}
             />

@@ -19,12 +19,8 @@ https://pokeapi.co/api/v2/pokemon/
         - Ed Lesson: https://edstem.org/au/courses/11863/lessons/42976/slides/295168
     - [x] Implement a form
 
-- Nice-to haves:
-    - [ ] CSS framework (eg. React Bootstrap)
-    - [ ] API that uses other HTTP verbs (eg. fetch with POST/PUT/DELETE)
-
 ## Thursday
-    
+
 - Definite goals:
     - [x] Manage an API URL via gloabl state and via ENV variables
         - [x] Improve our package.json command or setup a .env file to use ENV variables
@@ -39,8 +35,8 @@ https://pokeapi.co/api/v2/pokemon/
 ## Saturday
 
 - Definite goals:
-    - [ ]  Pokemon team CRUD
-        - [ ] Add and remove Pokemon from team
+    - [x]  Pokemon team CRUD
+        - [x] Add and remove Pokemon from team
         - [x] Save them to locastorage
 
 
